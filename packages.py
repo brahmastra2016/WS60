@@ -18,4 +18,4 @@ soup = Soup(html)
 results = soup.find('tr', {'class': 'MuiTableRow-root'})
 results
 results[1].find('td').text
-results[2].find('td').text)
+results[2].find('td').text
