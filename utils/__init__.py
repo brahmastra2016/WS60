@@ -55,8 +55,8 @@ def interactive_chart(df):
     chart = (
         alt.layer(line, selectors, points, rules, text)
         .properties(
-            width=700,
-            height=400,
+            width=500,
+            height=300,
             background='white',
             title='goodreads Challenge'
         )
